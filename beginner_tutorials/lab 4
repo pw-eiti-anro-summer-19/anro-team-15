@@ -1,0 +1,200 @@
+user_en@lab-21:~$ cd catkin_ws/
+user_en@lab-21:~/catkin_ws$ cd ~
+user_en@lab-21:~$ gedit .bashrc
+user_en@lab-21:~$ cd catkin_ws/
+user_en@lab-21:~/catkin_ws$ catkin_make
+Base path: /home/user_en/catkin_ws
+Source space: /home/user_en/catkin_ws/src
+Build space: /home/user_en/catkin_ws/build
+Devel space: /home/user_en/catkin_ws/devel
+Install space: /home/user_en/catkin_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/user_en/catkin_ws/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/user_en/catkin_ws/build"
+####
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[ 42%] Built target beginner_tutorials_generate_messages_cpp
+[ 42%] Built target beginner_tutorials_generate_messages_py
+[ 71%] Built target beginner_tutorials_generate_messages_nodejs
+[ 71%] Built target beginner_tutorials_generate_messages_lisp
+[100%] Built target beginner_tutorials_generate_messages_eus
+[100%] Built target beginner_tutorials_generate_messages
+user_en@lab-21:~/catkin_ws$ rosrun beginner_tutorials talker.py 
+[INFO] [1564388688.266308]: 1.5
+[INFO] [1564388688.366815]: 1.5
+[WARN] [1564388688.409375]: Could not process inbound connection: topic types do not match: [sensor_msgs/JointState] vs. [std_msgs/String]{'topic': '/joint_states', 'tcp_nodelay': '1', 'md5sum': '3066dcd76a6cfaef579bd0f34173e9fd', 'type': 'sensor_msgs/JointState', 'callerid': '/robot_state_publisher'}
+[INFO] [1564388688.466596]: 1.5
+[INFO] [1564388688.566799]: 1.5
+[INFO] [1564388688.666800]: 1.5
+[INFO] [1564388688.766762]: 1.5
+[INFO] [1564388688.866609]: 1.5
+[INFO] [1564388688.966779]: 1.5
+[INFO] [1564388689.066672]: 1.5
+[INFO] [1564388689.166863]: 1.5
+[INFO] [1564388689.266763]: 1.5
+[INFO] [1564388689.366885]: 1.5
+[INFO] [1564388689.466933]: 1.5
+[INFO] [1564388689.566625]: 1.5
+[INFO] [1564388689.666829]: 1.5
+[INFO] [1564388689.766864]: 1.5
+[INFO] [1564388689.866715]: 1.5
+[INFO] [1564388689.966837]: 1.5
+[INFO] [1564388690.066953]: 1.5
+[INFO] [1564388690.166774]: 1.5
+[INFO] [1564388690.266919]: 1.5
+[INFO] [1564388690.366733]: 1.5
+[INFO] [1564388690.466879]: 1.5
+[INFO] [1564388690.566564]: 1.5
+[INFO] [1564388690.666723]: 1.5
+[INFO] [1564388690.766848]: 1.5
+[INFO] [1564388690.866809]: 1.5
+[INFO] [1564388690.966872]: 1.5
+[INFO] [1564388691.066548]: 1.5
+[INFO] [1564388691.166848]: 1.5
+[INFO] [1564388691.266728]: 1.5
+[INFO] [1564388691.366715]: 1.5
+[INFO] [1564388691.466615]: 1.5
+[INFO] [1564388691.566677]: 1.5
+[INFO] [1564388691.666941]: 1.5
+[INFO] [1564388691.766821]: 1.5
+[INFO] [1564388691.866798]: 1.5
+[INFO] [1564388691.966847]: 1.5
+[INFO] [1564388692.066881]: 1.5
+[INFO] [1564388692.166720]: 1.5
+[INFO] [1564388692.266885]: 1.5
+[INFO] [1564388692.366785]: 1.5
+[INFO] [1564388692.466822]: 1.5
+[INFO] [1564388692.566832]: 1.5
+[INFO] [1564388692.666721]: 1.5
+[INFO] [1564388692.766615]: 1.5
+[INFO] [1564388692.866643]: 1.5
+[INFO] [1564388692.966792]: 1.5
+[INFO] [1564388693.066744]: 1.5
+[INFO] [1564388693.166746]: 1.5
+[INFO] [1564388693.266667]: 1.5
+[INFO] [1564388693.366705]: 1.5
+[INFO] [1564388693.466878]: 1.5
+[INFO] [1564388693.566742]: 1.5
+[INFO] [1564388693.666876]: 1.5
+[INFO] [1564388693.766840]: 1.5
+^Cuser_en@lab-21:~/catkin_wscatkin_make
+Base path: /home/user_en/catkin_ws
+Source space: /home/user_en/catkin_ws/src
+Build space: /home/user_en/catkin_ws/build
+Devel space: /home/user_en/catkin_ws/devel
+Install space: /home/user_en/catkin_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/user_en/catkin_ws/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/user_en/catkin_ws/build"
+####
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[ 28%] Built target beginner_tutorials_generate_messages_cpp
+[ 28%] Built target beginner_tutorials_generate_messages_lisp
+[ 42%] Built target beginner_tutorials_generate_messages_nodejs
+[ 71%] Built target beginner_tutorials_generate_messages_py
+[100%] Built target beginner_tutorials_generate_messages_eus
+[100%] Built target beginner_tutorials_generate_messages
+user_en@lab-21:~/catkin_ws$ rosrun beginner_tutorials talker.py 
+Traceback (most recent call last):
+  File "/home/user_en/catkin_ws/src/anro-team-15/beginner_tutorials/scripts/talker.py", line 58, in <module>
+    talker()
+  File "/home/user_en/catkin_ws/src/anro-team-15/beginner_tutorials/scripts/talker.py", line 48, in talker
+    msg = JointState()
+NameError: global name 'JointState' is not defined
+user_en@lab-21:~/catkin_ws$ catkin_make
+Base path: /home/user_en/catkin_ws
+Source space: /home/user_en/catkin_ws/src
+Build space: /home/user_en/catkin_ws/build
+Devel space: /home/user_en/catkin_ws/devel
+Install space: /home/user_en/catkin_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/user_en/catkin_ws/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/user_en/catkin_ws/build"
+####
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[ 57%] Built target beginner_tutorials_generate_messages_cpp
+[ 57%] Built target beginner_tutorials_generate_messages_lisp
+[ 57%] Built target beginner_tutorials_generate_messages_py
+[ 71%] Built target beginner_tutorials_generate_messages_nodejs
+[100%] Built target beginner_tutorials_generate_messages_eus
+[100%] Built target beginner_tutorials_generate_messages
+user_en@lab-21:~/catkin_ws$ rosrun beginner_tutorials talker.py 
+Traceback (most recent call last):
+  File "/home/user_en/catkin_ws/src/anro-team-15/beginner_tutorials/scripts/talker.py", line 59, in <module>
+    talker()
+  File "/home/user_en/catkin_ws/src/anro-team-15/beginner_tutorials/scripts/talker.py", line 44, in talker
+    pub = rospy.Publisher('joint_states', String, queue_size=10)
+NameError: global name 'String' is not defined
+user_en@lab-21:~/catkin_ws$ catkin_make
+Base path: /home/user_en/catkin_ws
+Source space: /home/user_en/catkin_ws/src
+Build space: /home/user_en/catkin_ws/build
+Devel space: /home/user_en/catkin_ws/devel
+Install space: /home/user_en/catkin_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/user_en/catkin_ws/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/user_en/catkin_ws/build"
+####
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[ 42%] Built target beginner_tutorials_generate_messages_cpp
+[ 42%] Built target beginner_tutorials_generate_messages_py
+[ 57%] Built target beginner_tutorials_generate_messages_nodejs
+[ 71%] Built target beginner_tutorials_generate_messages_lisp
+[100%] Built target beginner_tutorials_generate_messages_eus
+[100%] Built target beginner_tutorials_generate_messages
+user_en@lab-21:~/catkin_ws$ rosrun beginner_tutorials talker.py 
+^Cuser_en@lab-21:~/catkin_wscatkin_make
+Base path: /home/user_en/catkin_ws
+Source space: /home/user_en/catkin_ws/src
+Build space: /home/user_en/catkin_ws/build
+Devel space: /home/user_en/catkin_ws/devel
+Install space: /home/user_en/catkin_ws/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/user_en/catkin_ws/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/user_en/catkin_ws/build"
+####
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[  0%] Built target std_msgs_generate_messages_eus
+[ 14%] Built target beginner_tutorials_generate_messages_lisp
+[ 28%] Built target beginner_tutorials_generate_messages_nodejs
+[ 57%] Built target beginner_tutorials_generate_messages_py
+[ 71%] Built target beginner_tutorials_generate_messages_cpp
+[100%] Built target beginner_tutorials_generate_messages_eus
+[100%] Built target beginner_tutorials_generate_messages
+user_en@lab-21:~/catkin_ws$ rosrun beginner_tutorials talker.py 
+^Cuser_en@lab-21:~/catkin_ws$ rosrun beginner_tutorials talker.py 
+^Cuser_en@lab-21:~/catkin_ws$ rosrun beginner_tutorials talker.py 
